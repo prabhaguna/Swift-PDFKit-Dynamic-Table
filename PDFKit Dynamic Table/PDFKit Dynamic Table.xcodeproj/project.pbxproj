@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34D38F324D03A8600807826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D38F224D03A8600807826 /* AppDelegate.swift */; };
+		B34D38F524D03A8600807826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D38F424D03A8600807826 /* SceneDelegate.swift */; };
+		B34D38F724D03A8600807826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D38F624D03A8600807826 /* ViewController.swift */; };
+		B34D38FA24D03A8600807826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34D38F824D03A8600807826 /* Main.storyboard */; };
+		B34D38FC24D03AA700807826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34D38FB24D03AA700807826 /* Assets.xcassets */; };
+		B34D38FF24D03AA700807826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34D38FD24D03AA700807826 /* LaunchScreen.storyboard */; };
+		B34D390A24D03AA800807826 /* PDFKit_Dynamic_TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D390924D03AA800807826 /* PDFKit_Dynamic_TableTests.swift */; };
+		B34D391524D03AA800807826 /* PDFKit_Dynamic_TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D391424D03AA800807826 /* PDFKit_Dynamic_TableUITests.swift */; };
+		B34D392B24D03ACD00807826 /* PDFContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D392324D03ACC00807826 /* PDFContent.swift */; };
+		B34D392E24D03ACD00807826 /* pdf_ConfigurableTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D392724D03ACC00807826 /* pdf_ConfigurableTable.swift */; };
+		B34D393024D03ACD00807826 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D392924D03ACC00807826 /* Table.swift */; };
+		B34D393124D03ACD00807826 /* PDFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D392A24D03ACC00807826 /* PDFBuilder.swift */; };
+		B34D393624D043D500807826 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B34D393524D043D400807826 /* Logo.png */; };
+		B34D393E24D044EB00807826 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34D393824D044EB00807826 /* OpenSans-Semibold.ttf */; };
+		B34D393F24D044EB00807826 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34D393924D044EB00807826 /* OpenSans-Italic.ttf */; };
+		B34D394024D044EB00807826 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34D393A24D044EB00807826 /* Oswald-Regular.ttf */; };
+		B34D394124D044EB00807826 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34D393B24D044EB00807826 /* OpenSans-Bold.ttf */; };
+		B34D394224D044EB00807826 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34D393C24D044EB00807826 /* OpenSans.ttf */; };
+		B34D394324D044EB00807826 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34D393D24D044EB00807826 /* Oswald-Light.ttf */; };
+		B34D394524D0474D00807826 /* pinImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B34D394424D0474D00807826 /* pinImage.png */; };
+		B34D394824D04C0F00807826 /* Generals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D394724D04C0F00807826 /* Generals.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B34D390624D03AA800807826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B34D38E724D03A8600807826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B34D38EE24D03A8600807826;
+			remoteInfo = "PDFKit Dynamic Table";
+		};
+		B34D391124D03AA800807826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B34D38E724D03A8600807826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B34D38EE24D03A8600807826;
+			remoteInfo = "PDFKit Dynamic Table";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B34D38EF24D03A8600807826 /* PDFKit Dynamic Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDFKit Dynamic Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34D38F224D03A8600807826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B34D38F424D03A8600807826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B34D38F624D03A8600807826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B34D38F924D03A8600807826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B34D38FB24D03AA700807826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B34D38FE24D03AA700807826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B34D390024D03AA700807826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34D390524D03AA800807826 /* PDFKit Dynamic TableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDFKit Dynamic TableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34D390924D03AA800807826 /* PDFKit_Dynamic_TableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKit_Dynamic_TableTests.swift; sourceTree = "<group>"; };
+		B34D390B24D03AA800807826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34D391024D03AA800807826 /* PDFKit Dynamic TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDFKit Dynamic TableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34D391424D03AA800807826 /* PDFKit_Dynamic_TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKit_Dynamic_TableUITests.swift; sourceTree = "<group>"; };
+		B34D391624D03AA800807826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34D392324D03ACC00807826 /* PDFContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFContent.swift; sourceTree = "<group>"; };
+		B34D392724D03ACC00807826 /* pdf_ConfigurableTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pdf_ConfigurableTable.swift; sourceTree = "<group>"; };
+		B34D392924D03ACC00807826 /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		B34D392A24D03ACC00807826 /* PDFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFBuilder.swift; sourceTree = "<group>"; };
+		B34D393524D043D400807826 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		B34D393824D044EB00807826 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		B34D393924D044EB00807826 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		B34D393A24D044EB00807826 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		B34D393B24D044EB00807826 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		B34D393C24D044EB00807826 /* OpenSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSans.ttf; sourceTree = "<group>"; };
+		B34D393D24D044EB00807826 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		B34D394424D0474D00807826 /* pinImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinImage.png; sourceTree = "<group>"; };
+		B34D394724D04C0F00807826 /* Generals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generals.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B34D38EC24D03A8600807826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34D390224D03AA800807826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34D390D24D03AA800807826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B34D38E624D03A8600807826 = {
+			isa = PBXGroup;
+			children = (
+				B34D38F124D03A8600807826 /* PDFKit Dynamic Table */,
+				B34D390824D03AA800807826 /* PDFKit Dynamic TableTests */,
+				B34D391324D03AA800807826 /* PDFKit Dynamic TableUITests */,
+				B34D38F024D03A8600807826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B34D38F024D03A8600807826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B34D38EF24D03A8600807826 /* PDFKit Dynamic Table.app */,
+				B34D390524D03AA800807826 /* PDFKit Dynamic TableTests.xctest */,
+				B34D391024D03AA800807826 /* PDFKit Dynamic TableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34D38F124D03A8600807826 /* PDFKit Dynamic Table */ = {
+			isa = PBXGroup;
+			children = (
+				B34D38F224D03A8600807826 /* AppDelegate.swift */,
+				B34D38F424D03A8600807826 /* SceneDelegate.swift */,
+				B34D393224D0434C00807826 /* Controller */,
+				B34D392224D03ACC00807826 /* PDF */,
+				B34D394624D04BEF00807826 /* Utils */,
+				B34D393324D0437400807826 /* Resources */,
+				B34D38F824D03A8600807826 /* Main.storyboard */,
+				B34D38FB24D03AA700807826 /* Assets.xcassets */,
+				B34D38FD24D03AA700807826 /* LaunchScreen.storyboard */,
+				B34D390024D03AA700807826 /* Info.plist */,
+			);
+			path = "PDFKit Dynamic Table";
+			sourceTree = "<group>";
+		};
+		B34D390824D03AA800807826 /* PDFKit Dynamic TableTests */ = {
+			isa = PBXGroup;
+			children = (
+				B34D390924D03AA800807826 /* PDFKit_Dynamic_TableTests.swift */,
+				B34D390B24D03AA800807826 /* Info.plist */,
+			);
+			path = "PDFKit Dynamic TableTests";
+			sourceTree = "<group>";
+		};
+		B34D391324D03AA800807826 /* PDFKit Dynamic TableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B34D391424D03AA800807826 /* PDFKit_Dynamic_TableUITests.swift */,
+				B34D391624D03AA800807826 /* Info.plist */,
+			);
+			path = "PDFKit Dynamic TableUITests";
+			sourceTree = "<group>";
+		};
+		B34D392224D03ACC00807826 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				B34D392A24D03ACC00807826 /* PDFBuilder.swift */,
+				B34D392324D03ACC00807826 /* PDFContent.swift */,
+				B34D392924D03ACC00807826 /* Table.swift */,
+				B34D392724D03ACC00807826 /* pdf_ConfigurableTable.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		B34D393224D0434C00807826 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B34D38F624D03A8600807826 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B34D393324D0437400807826 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B34D393724D044EB00807826 /* Font */,
+				B34D393424D0438B00807826 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B34D393424D0438B00807826 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B34D394424D0474D00807826 /* pinImage.png */,
+				B34D393524D043D400807826 /* Logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B34D393724D044EB00807826 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B34D393824D044EB00807826 /* OpenSans-Semibold.ttf */,
+				B34D393924D044EB00807826 /* OpenSans-Italic.ttf */,
+				B34D393A24D044EB00807826 /* Oswald-Regular.ttf */,
+				B34D393B24D044EB00807826 /* OpenSans-Bold.ttf */,
+				B34D393C24D044EB00807826 /* OpenSans.ttf */,
+				B34D393D24D044EB00807826 /* Oswald-Light.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B34D394624D04BEF00807826 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B34D394724D04C0F00807826 /* Generals.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B34D38EE24D03A8600807826 /* PDFKit Dynamic Table */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34D391924D03AA800807826 /* Build configuration list for PBXNativeTarget "PDFKit Dynamic Table" */;
+			buildPhases = (
+				B34D38EB24D03A8600807826 /* Sources */,
+				B34D38EC24D03A8600807826 /* Frameworks */,
+				B34D38ED24D03A8600807826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PDFKit Dynamic Table";
+			productName = "PDFKit Dynamic Table";
+			productReference = B34D38EF24D03A8600807826 /* PDFKit Dynamic Table.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B34D390424D03AA800807826 /* PDFKit Dynamic TableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34D391C24D03AA800807826 /* Build configuration list for PBXNativeTarget "PDFKit Dynamic TableTests" */;
+			buildPhases = (
+				B34D390124D03AA800807826 /* Sources */,
+				B34D390224D03AA800807826 /* Frameworks */,
+				B34D390324D03AA800807826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34D390724D03AA800807826 /* PBXTargetDependency */,
+			);
+			name = "PDFKit Dynamic TableTests";
+			productName = "PDFKit Dynamic TableTests";
+			productReference = B34D390524D03AA800807826 /* PDFKit Dynamic TableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B34D390F24D03AA800807826 /* PDFKit Dynamic TableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34D391F24D03AA800807826 /* Build configuration list for PBXNativeTarget "PDFKit Dynamic TableUITests" */;
+			buildPhases = (
+				B34D390C24D03AA800807826 /* Sources */,
+				B34D390D24D03AA800807826 /* Frameworks */,
+				B34D390E24D03AA800807826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34D391224D03AA800807826 /* PBXTargetDependency */,
+			);
+			name = "PDFKit Dynamic TableUITests";
+			productName = "PDFKit Dynamic TableUITests";
+			productReference = B34D391024D03AA800807826 /* PDFKit Dynamic TableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B34D38E724D03A8600807826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Sempercon;
+				TargetAttributes = {
+					B34D38EE24D03A8600807826 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					B34D390424D03AA800807826 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B34D38EE24D03A8600807826;
+					};
+					B34D390F24D03AA800807826 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B34D38EE24D03A8600807826;
+					};
+				};
+			};
+			buildConfigurationList = B34D38EA24D03A8600807826 /* Build configuration list for PBXProject "PDFKit Dynamic Table" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B34D38E624D03A8600807826;
+			productRefGroup = B34D38F024D03A8600807826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B34D38EE24D03A8600807826 /* PDFKit Dynamic Table */,
+				B34D390424D03AA800807826 /* PDFKit Dynamic TableTests */,
+				B34D390F24D03AA800807826 /* PDFKit Dynamic TableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B34D38ED24D03A8600807826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34D394524D0474D00807826 /* pinImage.png in Resources */,
+				B34D393624D043D500807826 /* Logo.png in Resources */,
+				B34D394324D044EB00807826 /* Oswald-Light.ttf in Resources */,
+				B34D38FF24D03AA700807826 /* LaunchScreen.storyboard in Resources */,
+				B34D394224D044EB00807826 /* OpenSans.ttf in Resources */,
+				B34D394124D044EB00807826 /* OpenSans-Bold.ttf in Resources */,
+				B34D38FC24D03AA700807826 /* Assets.xcassets in Resources */,
+				B34D394024D044EB00807826 /* Oswald-Regular.ttf in Resources */,
+				B34D393F24D044EB00807826 /* OpenSans-Italic.ttf in Resources */,
+				B34D38FA24D03A8600807826 /* Main.storyboard in Resources */,
+				B34D393E24D044EB00807826 /* OpenSans-Semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34D390324D03AA800807826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34D390E24D03AA800807826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B34D38EB24D03A8600807826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34D392B24D03ACD00807826 /* PDFContent.swift in Sources */,
+				B34D393024D03ACD00807826 /* Table.swift in Sources */,
+				B34D394824D04C0F00807826 /* Generals.swift in Sources */,
+				B34D38F724D03A8600807826 /* ViewController.swift in Sources */,
+				B34D392E24D03ACD00807826 /* pdf_ConfigurableTable.swift in Sources */,
+				B34D38F324D03A8600807826 /* AppDelegate.swift in Sources */,
+				B34D393124D03ACD00807826 /* PDFBuilder.swift in Sources */,
+				B34D38F524D03A8600807826 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34D390124D03AA800807826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34D390A24D03AA800807826 /* PDFKit_Dynamic_TableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34D390C24D03AA800807826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34D391524D03AA800807826 /* PDFKit_Dynamic_TableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B34D390724D03AA800807826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B34D38EE24D03A8600807826 /* PDFKit Dynamic Table */;
+			targetProxy = B34D390624D03AA800807826 /* PBXContainerItemProxy */;
+		};
+		B34D391224D03AA800807826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B34D38EE24D03A8600807826 /* PDFKit Dynamic Table */;
+			targetProxy = B34D391124D03AA800807826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B34D38F824D03A8600807826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B34D38F924D03A8600807826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B34D38FD24D03AA700807826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B34D38FE24D03AA700807826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B34D391724D03AA800807826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B34D391824D03AA800807826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34D391A24D03AA800807826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "PDFKit Dynamic Table/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.PDFKit-Dynamic-Table";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B34D391B24D03AA800807826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "PDFKit Dynamic Table/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.PDFKit-Dynamic-Table";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B34D391D24D03AA800807826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				INFOPLIST_FILE = "PDFKit Dynamic TableTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.PDFKit-Dynamic-TableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFKit Dynamic Table.app/PDFKit Dynamic Table";
+			};
+			name = Debug;
+		};
+		B34D391E24D03AA800807826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				INFOPLIST_FILE = "PDFKit Dynamic TableTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.PDFKit-Dynamic-TableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFKit Dynamic Table.app/PDFKit Dynamic Table";
+			};
+			name = Release;
+		};
+		B34D392024D03AA800807826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				INFOPLIST_FILE = "PDFKit Dynamic TableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.PDFKit-Dynamic-TableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PDFKit Dynamic Table";
+			};
+			name = Debug;
+		};
+		B34D392124D03AA800807826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M2HRTRY96;
+				INFOPLIST_FILE = "PDFKit Dynamic TableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.PDFKit-Dynamic-TableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PDFKit Dynamic Table";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B34D38EA24D03A8600807826 /* Build configuration list for PBXProject "PDFKit Dynamic Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34D391724D03AA800807826 /* Debug */,
+				B34D391824D03AA800807826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34D391924D03AA800807826 /* Build configuration list for PBXNativeTarget "PDFKit Dynamic Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34D391A24D03AA800807826 /* Debug */,
+				B34D391B24D03AA800807826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34D391C24D03AA800807826 /* Build configuration list for PBXNativeTarget "PDFKit Dynamic TableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34D391D24D03AA800807826 /* Debug */,
+				B34D391E24D03AA800807826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34D391F24D03AA800807826 /* Build configuration list for PBXNativeTarget "PDFKit Dynamic TableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34D392024D03AA800807826 /* Debug */,
+				B34D392124D03AA800807826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B34D38E724D03A8600807826 /* Project object */;
+}
